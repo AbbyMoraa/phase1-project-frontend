@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventsHub</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">EventsHub</div>
+            <ul class="nav">
+                <li><a href="#events">Events</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <label class="dark-toggle">
+                <input type="checkbox" id="darkMode"> Dark Mode
+            </label>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container header-content">
+            <div class="header-text">
+                <h1>Welcome to EventsHub</h1>
+                <p>Discover and register for school events with ease.</p>
+                <p>Stay updated with concerts, sports, academic forums, and more.</p>
+                <p>Register now and never miss out!</p>
+            </div>
+            <div class="header-image">
+                <img src="https://img.freepik.com/free-photo/team-supporters-celebrating-tailgate-party_53876-137734.jpg?semt=ais_hybrid&w=740&q=80" 
+                     alt="Students enjoying events">
+            </div>
+        </div>
+    </header>
+
+    <section id="search-section">
+        <input type="text" id="search" class="nav-search" placeholder="Search Events">
+    </section>
+
+    <section class="boxes" id="events">
+        <div class="container">
+            
+        </div>
+    </section>
+
+    <section class="register-section" id="register">
+        <div class="container">
+            <h2>Register for an Event</h2>
+            <form id="registration-form">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" type="text" name="fullName" placeholder="Jane Doe" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="you@school.edu" required>
+
+                <label for="studentId">Student ID</label>
+                <input id="studentId" type="text" name="studentId" placeholder="S123456" required>
+
+                <button type="submit" class="register">Submit</button>
+            </form>
+        </div>
+    </section>
+
+<section id="feedback">
+  <h2>Leave Feedback</h2>
+  <input type="text" id="feedbackInput" placeholder="Your feedback">
+  <button id="feedbackBtn">Submit</button>
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 EventsHub | All rights reserved</p>
+            <p>Contact: events@school.com | +254 700 123 456</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
